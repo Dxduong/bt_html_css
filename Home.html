@@ -11,10 +11,10 @@
     <header>
         <img src="images/layout_01.jpg" alt="">
     </header>
-    <div>
+    <fieldset class=".body">
         <content>
-            <form action="" method="post" enctype="multipart/form-data" id="form_id">
-                <fieldset>
+            <fieldset>
+                <form action="" method="post" enctype="multipart/form-data" id="form_id">
                     <hr>
                     Username:
                     <input type="text" name="" id="">
@@ -22,6 +22,7 @@
                     <br>
                     Password:
                     <input type="text" name="" id="">
+                    <br>
                     <br>
                     <br>
                     <input type="reset" name="" id="">
@@ -37,12 +38,12 @@
                     <a href="Contact.html">Contact</a>
                     <br>
                     <a href="Help.html">Help</a>
-                </fieldset>
-            </form>
+                </form>
+            </fieldset>
         </content>
         <main>
             <fieldset>
-                <h1>Welcome to your <span>Photo Site</span></h1>
+                <h1 style="color: blue;">Welcome to your <span style="color: red;">Photo Site</span></h1>
                 <img src="images/layout_08.jpg" alt="">
                 <img src="images/layout_09.jpg" alt="">
                 <img src="images/layout_10.jpg" alt="">
@@ -61,15 +62,18 @@
                 </p>
             </fieldset>
         </main>
-    </div>
+    </fieldset>
     <footer>
-        <fieldset class="left">
-            <img src="images/layout_22.jpg" alt="">
-            <img src="images/layout_23.jpg" alt="">
-            <img src="images/layout_24.jpg" alt="">
-        </fieldset>
-        <fieldset class="right">
-            <p>Copyright (C) 2003, your company name, all right reserved</p>
+        <fieldset>
+            <fieldset class="left">
+                <p></p>
+                <img src="images/layout_22.jpg" alt="">
+                <img src="images/layout_23.jpg" alt="">
+                <img src="images/layout_24.jpg" alt="">
+            </fieldset>
+            <fieldset class="right">
+                <p>Copyright (C) 2003, your company name, all right reserved</p>
+            </fieldset>
         </fieldset>
     </footer>
 </body>

@@ -1,0 +1,22 @@
+header img{
+    height: 300px;
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+content{
+    width: 30%;
+    float: left;
+}
+content a{
+    color: black;
+    text-decoration: none;
+}
+content fieldset{
+    height: 436px;
+}
+main{
+    width: 70%;
+    float: right;
+}
