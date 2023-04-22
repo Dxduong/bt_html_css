@@ -1,0 +1,38 @@
+header img{
+    height: 300px;
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+content{
+    width: 30%;
+    float: left;
+}
+content fieldset{
+    height: 436px;
+}
+main{
+    width: 70%;
+    float: right;
+}
+footer{
+    height: 35px;
+    width: 100%;
+}
+.left {
+    width: 27.5%;
+    float: left;
+}
+.right{
+    width: 67.5%;
+    float: right;
+    text-align: center;
+}
+footer img{
+    margin-left: 50px;
+}
+content a{
+    color: black;
+    text-decoration: none;
+}
